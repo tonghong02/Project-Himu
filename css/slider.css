@@ -1,0 +1,7 @@
+/*==== slider  ====*/
+.text-content-slider div h3, p, a{
+    font-family: 'Roboto', sans-serif;
+}
+.text-content-slider a {
+    background: #fc7000;
+}

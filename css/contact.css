@@ -1,0 +1,73 @@
+/*==== CONTACT ====*/
+
+#contact {
+    background: #d8d8d8;
+}
+.contact-text{
+    margin-top: 5%;
+}
+.contact-text div {
+    width: 51%;
+    margin: 0 auto;
+    border-left: 4px solid #fc7700;
+    border-right: 4px solid #fc7700;
+}
+
+.contact-text h2 {
+     width: 50%;
+    margin: 30px auto;
+    border-bottom: 4px solid #fc7700;
+    padding-bottom: 3%;
+    color: #43484e;
+}
+
+.contact-content {
+    border: 1px solid black;
+    height: 300px;
+    background: #e0e0e0;
+    margin-bottom: 80px;
+    /*     margin: 5px */
+}
+
+.contact-address {
+    margin-top: 40px;
+    /*     background: violet; */
+    /*     height: 250px; */
+}
+
+address {
+    padding-top: 40px;
+}
+
+.socials-icon div {
+    display: inline-block;
+    border: 1px solid gray;
+    /*     background: red; */
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
+
+.socials-icon div a i {
+    line-height: 36px;
+    color: #a2a2a2;
+    font-size: 20px;
+}
+.socials-icon div:hover i {
+    color:  #fc7700;
+}
+.contact-content {
+    margin-top: 30px;
+}
+
+#contact-form {
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.contact-content h3, small{
+    color: gray;
+}
+
+/*==== END CONTACT ====*/

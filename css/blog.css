@@ -1,0 +1,98 @@
+/*==== BLOG ====*/
+
+.blog-text {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.blog-text div {
+    width: 41%;
+    margin: 0 auto;
+    border-left: 4px solid #fc7700;
+    border-right: 4px solid #fc7700;
+}
+
+.blog-text h2 {
+     width: 50%;
+    margin: 30px auto;
+    border-bottom: 4px solid #fc7700;
+    padding-bottom: 3%;
+    color: #43484e;
+}
+.blog-text p{
+    color: gray;
+}
+
+.blog-div {
+    margin-bottom: 90px;
+}
+
+
+.single-blog {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: #f7f7f7;
+    -webkit-transition: background 2s;
+    -moz-transition: background 2s;
+    -o-transition: background 2s;
+    transition: background 2s;
+}
+
+.single-blog:hover {
+    background: #43484e;
+}
+
+.single-blog img {
+    width: 87%;
+    margin-top: 25px;
+}
+.single-blog ul{
+    margin-left: -28%;
+}
+.single-blog ul li {
+    display: inline;
+    color: gray;
+}
+.single-blog h3{
+    font-size: 135%;
+    margin: 7% auto;
+    color: gray;
+} 
+.single-blog p {
+    padding-left: 7%;
+    padding-right: 7%;
+    text-align: justify;
+    color: gray;
+    font-size: 115%;
+}
+
+.single-blog a {
+    margin: 20px;
+}
+
+.orange {
+    background: #fc7700;
+}
+
+.read-more {
+    border: 1px solid #fc7000;
+    color: gray;
+    -webkit-transition: background 2s;
+    -moz-transition: background 2s;
+    -o-transition: background 2s;
+    transition: background 2s;
+}
+
+.single-blog:hover h3,
+.single-blog:hover p {
+    color: white;
+}
+
+.single-blog:hover .read-more {
+    color: white;
+    background: #fc7700;
+}
+
+
+/*==== END BLOG ====*/

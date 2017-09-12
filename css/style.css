@@ -1,0 +1,495 @@
+body{
+    font-family: 'Roboto', sans-serif
+}
+#footer {
+    height: 10%;
+}
+#footer p{
+    padding-top: 7%;
+}
+
+@media only screen and (max-width: 1366px) {
+/*     SLIDER */
+    #slider{
+        margin-top: 6%;
+    }
+    .text-content-slider{
+          margin-bottom: 10%;
+    }
+    .text-content-slider h3{
+        font-size: 300%;
+    }
+    .text-content-slider p{
+        font-size: 180%;
+        margin-bottom: 10%
+    }
+    .text-content-slider a{
+        font-size: 150%;
+    }
+/*     about-us */
+    #about_us {
+      margin-bottom: 8%;
+    }
+    .about-us{
+        padding-bottom: 4%;
+    }
+    .tab-content .tab-pane div img{
+        width: 100%;
+    }
+    .about-us-right .skillbar, .skillbar-title,.about-us-right .skillbar-bar, .skill-bar-percent{
+        height: 40px;
+    }
+    .about-us-right div {
+        margin-bottom: 3.8%;
+    }
+/*      our team*/
+    
+
+}
+
+@media only screen and (max-width: 1024px) {
+/*     MENU */
+    .navbar-header{
+        width: 100%;
+    }
+    .page-scroll{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .nav li{
+        font-size: 85%;
+    }
+/*     SLIDER */
+    #slider{
+        margin-top: 12%;
+    }
+    .text-content-slider{
+          margin-bottom: 7%;
+    }
+    .text-content-slider h3{
+        margin-bottom: 5%;
+    }
+/*    SERVICES  */
+    .services-text p{
+        margin-bottom: 1%;
+    }
+/*      our team*/
+    .single-member h4{
+        font-size: 120%;
+    }
+    .single-member h5{
+        font-size: 80%;
+    }
+    .item .our-team-div .text-center p{
+        font-size: 85%;
+    }
+    
+/*      blog*/
+    .single-blog ul li {
+    font-size: 90%;
+   
+}
+    .single-blog ul li:first-of-type{
+         padding-left: 5%;
+    }
+}
+ 
+@media only screen and (max-width: 990px) {
+/*   services*/
+    .content-services .div-animation{
+        margin-left: -10%;
+    }
+    .third-contents{
+        width: 90%;
+        margin-left: 7%;
+    }
+    .third_servies{
+        width: 100%;
+    }
+    
+/*     clients */
+    .clients-text h2 {
+        width: 80%;
+        font-size: 165%;
+    }
+}
+@media only screen and (max-width: 980px) {
+/*     about us */
+    .tab-content .tab-pane div img{
+        width: 92%;
+    }
+    #about_us h2{
+        width: 50%;
+        margin: 30px auto;
+        border-bottom: 4px solid #fc7700;
+    }
+    .about-us div h3{
+        font-size: 120%;
+    }
+   
+/*  services */
+/*     .content-services .div-animation{
+        margin-left: -12%;
+    }
+    .services-text p{
+        font-size: 130%;
+    }
+
+    .content-services div {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background: #ffff;
+    font-size: 50px;
+    border-radius: 50%;
+    margin-left: 10%;
+} */
+}
+ 
+
+ 
+@media only screen and (max-width: 780px) {
+    
+/*    about us  */
+    
+/*   services*/
+     .content-services .div-animation{
+        margin-left: 5%;
+    }
+}
+ 
+
+ 
+@media only screen and (max-width: 767px) {
+/*    about us  */
+    .about-us {
+        padding-bottom: 5%;
+    }
+    .tab-content .tab-pane div img{
+        width: 95%;
+    }
+    #about_us h2{
+        width: 40%;
+        margin: 30px auto;
+        border-bottom: 4px solid #fc7700;
+        padding-bottom: 3%;
+        font-size: 160%;
+    }
+    .about-us div h3{
+        font-size: 120%;
+    }
+    .about-us-right{
+        margin-top: 5%;
+    }
+    .about-us-right h3, .about-us-left h3{
+        margin-bottom: 3%;
+        padding-bottom: -10%;
+    }
+}
+ 
+@media only screen and (max-width: 640px) {
+  #slider{
+        margin-top: 16%;
+    }
+    .text-content-slider h3{
+        margin-bottom: 5%;
+        font-size: 140%;
+    }
+}
+ 
+@media only screen and (max-width: 570px) {
+/*   slider*/
+    #slider{
+        margin-top: 17%;
+    }
+    .text-content-slider{
+        margin-bottom: 4%;
+    }
+    .text-content-slider h3{
+        margin-bottom: 5%;
+        font-size: 140%;
+    }
+    .text-content-slider p{
+        font-size: 120%;
+    }
+    /*     about us */
+    .about-us {
+        padding-bottom: 8%;
+    }
+    /*      meet team*/
+    .our-team-text h2{
+        width: 80%;
+        font-size: 130%;
+    }
+}
+ 
+@media only screen and (max-width: 520px) {
+    /*   slider*/
+    #slider{
+        margin-top: 20%;
+    }
+    .text-content-slider h3{
+        margin-bottom: 5%;
+        font-size: 135%;
+    }
+    .text-content-slider p{
+        font-size: 100%;
+    }
+/*      abpout us*/
+     .about-us {
+        padding-bottom: 10%;
+    }
+     .about-us-right .skillbar, .skillbar-title,.about-us-right .skillbar-bar, .skill-bar-percent{
+        height: 30px;
+    }
+    /*      meet team*/
+    .our-team-text h2{
+        width: 80%;
+        font-size: 140%;
+    }
+
+}
+ 
+@media only screen and (max-width: 480px) {
+     /*   slider*/
+    #slider{
+        margin-top: 21%;
+    }
+    .text-content-slider{
+        margin-bottom: 2%;
+    }
+    .text-content-slider h3{
+        margin-bottom: 5%;
+        font-size: 120%;
+    }
+    .text-content-slider p{
+        font-size: 100%;
+    }
+    .text-content-slider a{
+        margin-bottom: 3%;
+        font-size: 100%;
+    }
+/*     about us */
+    .about-us {
+/*      background: red; */
+        padding-bottom: 13%;
+    }
+    .about-us-text div p{
+        font-size: 100%;
+    }
+    #about_us h2{
+        width: 50%;
+        margin: 30px auto;
+        border-bottom: 4px solid #fc7700;
+        padding-bottom: 3%;
+        font-size: 130%;
+    }
+     .tab-content .tab-pane div p{
+        font-size: 100%;
+    }
+    .tab-content .tab-pane div img{
+        margin-right: 15%;
+        width: 93%;
+    }
+/*      meet team*/
+    .our-team-text h2{
+        width: 80%;
+        font-size: 140%;
+    }
+/*    client  */
+    .clients-text h2{
+        font-size: 140%;
+    }
+}
+ 
+@media only screen and (max-width: 460px) {
+     /*   slider*/
+    #slider{
+        margin-top: 22%;
+    }
+    .text-content-slider{
+        margin-bottom: 0%;
+    }
+    .text-content-slider h3{
+        margin-bottom: 3%;
+        font-size: 120%;
+    }
+    .text-content-slider p{
+        font-size: 90%;
+    }
+    .text-content-slider a{
+        margin-bottom: 3%;
+        font-size: 90%;
+    }
+/*      about us*/
+    .tab-content .tab-pane div img{
+        margin-right: 15%;
+        width: 92%;
+    }
+}
+ 
+@media only screen and (max-width: 430px) {
+     /*   slider*/
+    #slider{
+        margin-top: 24%;
+    }
+    .text-content-slider{
+        margin-bottom: -1%;
+    }
+    .text-content-slider h3{
+        margin-bottom: 3%;
+        font-size: 110%;
+    }
+    .text-content-slider p{
+        font-size: 85%;
+    }
+    .text-content-slider a{
+        margin-bottom: 3%;
+        font-size: 85%;
+    }
+}
+ 
+@media only screen and (max-width: 405px) {
+      /*   slider*/
+    #slider{
+        margin-top: 25.5%;
+    }
+    .text-content-slider{
+        margin-bottom: -1%;
+    }
+    .text-content-slider h3{
+        margin-bottom: 3%;
+        font-size: 100%;
+    }
+    .text-content-slider p{
+        font-size: 80%;
+    }
+    .text-content-slider a{
+        margin-bottom: 3%;
+        font-size: 80%;
+    }
+/*      about*/
+    .about-us {
+/*      background: red; */
+        padding-bottom: 20%;
+    }
+    .about-us-text div p{
+        font-size: 90%;
+    }
+    .tab-content .tab-pane div p{
+        font-size: 85%;
+    }
+    
+    #about_us h2{
+        width: 50%;
+        margin: 30px auto;
+        border-bottom: 4px solid #fc7700;
+        padding-bottom: 3%;
+        font-size: 120%;
+    }
+    .about-us-right .skillbar, .skillbar-title,.about-us-right .skillbar-bar, .skill-bar-percent{
+        height: 25px;
+    }
+}
+ 
+@media only screen and (max-width: 360px) {
+      /*   slider*/
+    #slider{
+        margin-top: 29.5%;
+    }
+    .text-content-slider{
+        margin-bottom: -3%;
+    }
+    .text-content-slider h3{
+        margin-bottom: 3%;
+        font-size: 90%;
+    }
+    .text-content-slider p{
+        font-size: 80%;
+        margin-bottom: 2%;
+    }
+    .text-content-slider a{
+        margin-bottom: 5%;
+        font-size: 70%;
+    }
+    
+/*     About us */
+    .about-us {
+/*         background: red; */
+        padding-bottom: 23%;
+}
+    .about-us-text div p{
+        font-size: 100%;
+    }
+    .tab-content .tab-pane div img{
+        margin-right: 15%;
+        width: 90%;
+    }
+    .tab-content .tab-pane div p{
+        font-size: 90%;
+    }
+    
+    #about_us h2{
+        width: 50%;
+        margin: 30px auto;
+        border-bottom: 4px solid #fc7700;
+        padding-bottom: 3%;
+        font-size: 130%;
+    }
+    .about-us div h3{
+        font-size: 120%;
+    }
+    .about-us-right{
+        margin-top: 10%;
+    }
+    .about-us-right h3, .about-us-left h3{
+        margin-bottom: 5%;
+        padding-bottom: -10%;
+    }
+    .about-us-right .skillbar, .skillbar-title,.about-us-right .skillbar-bar, .skill-bar-percent{
+        height: 30px;
+    }
+}
+ 
+@media only screen and (max-width: 338px) {
+ 
+}
+ 
+@media only screen and (max-width: 330px) {
+ 
+}
+ 
+@media only screen and (max-width: 320px) {
+ 
+}
+
+@media (min-width: 768px) {
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: none;
+        letter-spacing: 1px;
+        background: transparent;
+        -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+        -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+        transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    }
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        background: black;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+}
+
+@media (min-width: 768px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+    .intro .intro-body .brand-heading {
+        font-size: 100px;
+    }
+    .intro .intro-body .intro-text {
+        font-size: 26px;
+    }
+}

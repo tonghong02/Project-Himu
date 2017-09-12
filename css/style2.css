@@ -1,0 +1,39 @@
+div{
+ background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-origin: border-box;
+	
+	display: inline-block; width: 100px; height: 100px;
+	border-width: 50px;
+	border-color: rgba(0,0,0,0);
+	
+	border-radius: 100%;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-ms-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	transition: 0.5s ease;
+  
+  border: 50px solid rgba(0, 0, 0, 0.7);
+  position: relative
+}
+div i{
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+
+div:hover  {
+	border-width: 0;
+	border-color: rgba(0, 0, 0, 0.5);
+}
+
+}
+
